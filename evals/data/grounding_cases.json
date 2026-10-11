@@ -1,0 +1,266 @@
+{
+ "_note": "Hand-written rewrites of bullets from maya_chen_data_analyst.txt: 20 faithful and 20 fabricated. Owner: Dathan Neal (fabrication cases). 'semantic_inflation' cases are deliberately hard: no new number, skill or name.",
+ "resume": "maya_chen_data_analyst",
+ "cases": [
+  {
+   "source_id": "B1",
+   "source": "Built SQL dashboards in Tableau that cut weekly reporting time by 40%",
+   "proposed": "Created SQL dashboards in Tableau, cutting weekly reporting time by 40%",
+   "label": "clean"
+  },
+  {
+   "source_id": "B1",
+   "source": "Built SQL dashboards in Tableau that cut weekly reporting time by 40%",
+   "proposed": "Cut weekly reporting time by 40% by building SQL dashboards in Tableau",
+   "label": "clean"
+  },
+  {
+   "source_id": "B1",
+   "source": "Built SQL dashboards in Tableau that cut weekly reporting time by 40%",
+   "proposed": "Built Tableau dashboards on SQL data that cut weekly reporting time by 40%",
+   "label": "clean"
+  },
+  {
+   "source_id": "B2",
+   "source": "Cleaned and merged sales data from 12 stores using Python and Pandas",
+   "proposed": "Merged and cleaned sales data from 12 stores with Python and Pandas",
+   "label": "clean"
+  },
+  {
+   "source_id": "B2",
+   "source": "Cleaned and merged sales data from 12 stores using Python and Pandas",
+   "proposed": "Used Python and Pandas to clean and merge sales data from 12 stores",
+   "label": "clean"
+  },
+  {
+   "source_id": "B2",
+   "source": "Cleaned and merged sales data from 12 stores using Python and Pandas",
+   "proposed": "Cleaned sales data from 12 stores using Python and Pandas, then merged it",
+   "label": "clean"
+  },
+  {
+   "source_id": "B3",
+   "source": "Presented data analysis findings to regional managers, improving communication between stores and head office",
+   "proposed": "Presented data analysis findings to regional managers and improved communication between stores and head office",
+   "label": "clean"
+  },
+  {
+   "source_id": "B3",
+   "source": "Presented data analysis findings to regional managers, improving communication between stores and head office",
+   "proposed": "Shared data analysis findings with regional managers, improving communication between stores and head office",
+   "label": "clean"
+  },
+  {
+   "source_id": "B3",
+   "source": "Presented data analysis findings to regional managers, improving communication between stores and head office",
+   "proposed": "Communicated data analysis findings to regional managers, improving communication between stores and head office",
+   "label": "clean"
+  },
+  {
+   "source_id": "B4",
+   "source": "Maintained Excel forecasting models used by a team of 8 buyers",
+   "proposed": "Maintained Excel forecasting models for a team of 8 buyers",
+   "label": "clean"
+  },
+  {
+   "source_id": "B4",
+   "source": "Maintained Excel forecasting models used by a team of 8 buyers",
+   "proposed": "Kept Excel forecasting models up to date for 8 buyers",
+   "label": "clean"
+  },
+  {
+   "source_id": "B4",
+   "source": "Maintained Excel forecasting models used by a team of 8 buyers",
+   "proposed": "Managed Excel forecasting models used by 8 buyers",
+   "label": "clean"
+  },
+  {
+   "source_id": "B5",
+   "source": "Worked in Agile sprints with 5 engineers to ship a reporting tool",
+   "proposed": "Collaborated with 5 engineers in Agile sprints to ship a reporting tool",
+   "label": "clean"
+  },
+  {
+   "source_id": "B5",
+   "source": "Worked in Agile sprints with 5 engineers to ship a reporting tool",
+   "proposed": "Shipped a reporting tool in Agile sprints alongside 5 engineers",
+   "label": "clean"
+  },
+  {
+   "source_id": "B6",
+   "source": "Reduced report errors by 25% by validating inputs with SQL checks",
+   "proposed": "Cut report errors by 25% through SQL input validation checks",
+   "label": "clean"
+  },
+  {
+   "source_id": "B6",
+   "source": "Reduced report errors by 25% by validating inputs with SQL checks",
+   "proposed": "Validated inputs with SQL checks, reducing report errors by 25%",
+   "label": "clean"
+  },
+  {
+   "source_id": "B7",
+   "source": "Created weekly sales summaries for 30 product lines",
+   "proposed": "Produced weekly sales summaries for 30 product lines",
+   "label": "clean"
+  },
+  {
+   "source_id": "B7",
+   "source": "Created weekly sales summaries for 30 product lines",
+   "proposed": "Created weekly summaries of sales across 30 product lines",
+   "label": "clean"
+  },
+  {
+   "source_id": "B7",
+   "source": "Created weekly sales summaries for 30 product lines",
+   "proposed": "Created weekly sales summaries covering 30 product lines",
+   "label": "clean"
+  },
+  {
+   "source_id": "B6",
+   "source": "Reduced report errors by 25% by validating inputs with SQL checks",
+   "proposed": "Reduced report errors by 25% with SQL validation checks on inputs",
+   "label": "clean"
+  },
+  {
+   "source_id": "B1",
+   "source": "Built SQL dashboards in Tableau that cut weekly reporting time by 40%",
+   "proposed": "Built SQL dashboards in Tableau, deployed on AWS, that cut weekly reporting time by 40%",
+   "label": "fabricated",
+   "type": "new_skill"
+  },
+  {
+   "source_id": "B2",
+   "source": "Cleaned and merged sales data from 12 stores using Python and Pandas",
+   "proposed": "Cleaned and merged sales data from 12 stores using Python, Pandas and Docker",
+   "label": "fabricated",
+   "type": "new_skill"
+  },
+  {
+   "source_id": "B4",
+   "source": "Maintained Excel forecasting models used by a team of 8 buyers",
+   "proposed": "Maintained Excel and Power BI forecasting models used by a team of 8 buyers",
+   "label": "fabricated",
+   "type": "new_skill"
+  },
+  {
+   "source_id": "B6",
+   "source": "Reduced report errors by 25% by validating inputs with SQL checks",
+   "proposed": "Reduced report errors by 25% by validating inputs with SQL checks and Kubernetes pipelines",
+   "label": "fabricated",
+   "type": "new_skill"
+  },
+  {
+   "source_id": "B7",
+   "source": "Created weekly sales summaries for 30 product lines",
+   "proposed": "Created weekly sales summaries for 30 product lines using machine learning",
+   "label": "fabricated",
+   "type": "new_skill"
+  },
+  {
+   "source_id": "B3",
+   "source": "Presented data analysis findings to regional managers, improving communication between stores and head office",
+   "proposed": "Presented data analysis findings to regional managers using React dashboards, improving communication between stores and head office",
+   "label": "fabricated",
+   "type": "new_skill"
+  },
+  {
+   "source_id": "B1",
+   "source": "Built SQL dashboards in Tableau that cut weekly reporting time by 40%",
+   "proposed": "Built SQL dashboards in Tableau that cut weekly reporting time by 60%",
+   "label": "fabricated",
+   "type": "number_change"
+  },
+  {
+   "source_id": "B2",
+   "source": "Cleaned and merged sales data from 12 stores using Python and Pandas",
+   "proposed": "Cleaned and merged sales data from 40 stores using Python and Pandas",
+   "label": "fabricated",
+   "type": "number_change"
+  },
+  {
+   "source_id": "B4",
+   "source": "Maintained Excel forecasting models used by a team of 8 buyers",
+   "proposed": "Maintained Excel forecasting models used by a team of 20 buyers",
+   "label": "fabricated",
+   "type": "number_change"
+  },
+  {
+   "source_id": "B6",
+   "source": "Reduced report errors by 25% by validating inputs with SQL checks",
+   "proposed": "Reduced report errors by 52% by validating inputs with SQL checks",
+   "label": "fabricated",
+   "type": "number_change"
+  },
+  {
+   "source_id": "B3",
+   "source": "Presented data analysis findings to regional managers, improving communication between stores and head office",
+   "proposed": "Presented data analysis findings to 15 regional managers, improving communication between stores and head office",
+   "label": "fabricated",
+   "type": "new_number"
+  },
+  {
+   "source_id": "B5",
+   "source": "Worked in Agile sprints with 5 engineers to ship a reporting tool",
+   "proposed": "Worked in Agile sprints with 5 engineers to ship a reporting tool used by 2,000 employees",
+   "label": "fabricated",
+   "type": "new_number"
+  },
+  {
+   "source_id": "B7",
+   "source": "Created weekly sales summaries for 30 product lines",
+   "proposed": "Created weekly sales summaries for 30 product lines, saving $50,000 annually",
+   "label": "fabricated",
+   "type": "new_number"
+  },
+  {
+   "source_id": "B1",
+   "source": "Built SQL dashboards in Tableau that cut weekly reporting time by 40%",
+   "proposed": "Built SQL dashboards in Tableau at Google that cut weekly reporting time by 40%",
+   "label": "fabricated",
+   "type": "invented_entity"
+  },
+  {
+   "source_id": "B3",
+   "source": "Presented data analysis findings to regional managers, improving communication between stores and head office",
+   "proposed": "Presented data analysis findings to regional managers at Walmart, improving communication between stores and head office",
+   "label": "fabricated",
+   "type": "invented_entity"
+  },
+  {
+   "source_id": "B5",
+   "source": "Worked in Agile sprints with 5 engineers to ship a reporting tool",
+   "proposed": "Worked in Agile sprints with 5 engineers at Amazon to ship a reporting tool",
+   "label": "fabricated",
+   "type": "invented_entity"
+  },
+  {
+   "source_id": "B4",
+   "source": "Maintained Excel forecasting models used by a team of 8 buyers",
+   "proposed": "Maintained Excel forecasting models used by a team of 8 buyers, earning the Gartner Excellence Award",
+   "label": "fabricated",
+   "type": "invented_entity"
+  },
+  {
+   "source_id": "B5",
+   "source": "Worked in Agile sprints with 5 engineers to ship a reporting tool",
+   "proposed": "Led Agile sprints with 5 engineers to ship a reporting tool",
+   "label": "fabricated",
+   "type": "semantic_inflation"
+  },
+  {
+   "source_id": "B3",
+   "source": "Presented data analysis findings to regional managers, improving communication between stores and head office",
+   "proposed": "Presented data analysis findings to regional managers, transforming communication between stores and head office",
+   "label": "fabricated",
+   "type": "semantic_inflation"
+  },
+  {
+   "source_id": "B4",
+   "source": "Maintained Excel forecasting models used by a team of 8 buyers",
+   "proposed": "Directed the buyers' team using Excel forecasting models",
+   "label": "fabricated",
+   "type": "semantic_inflation"
+  }
+ ]
+}

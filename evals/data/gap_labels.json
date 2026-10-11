@@ -1,0 +1,35 @@
+{
+  "_note": "Hand labels written by reading each synthetic resume and job description (matched / transferable). Every other job skill is 'missing'. Labelled independently of the analyser code. Owner: Jangmu Sherpa.",
+  "jds": {
+    "data_analyst": {"required": ["SQL", "Python", "Excel", "Tableau", "Data Analysis", "Communication"], "preferred": ["Pandas", "Power BI", "Agile"]},
+    "software_engineer": {"required": ["Python", "React", "REST APIs", "PostgreSQL", "Git", "Docker"], "preferred": ["AWS", "Kubernetes", "CI/CD"]},
+    "cloud_engineer_trap": {"required": ["AWS", "Kubernetes", "Terraform", "Docker", "Linux", "Python"], "preferred": ["Go", "CI/CD"]}
+  },
+  "labels": {
+    "maya_chen_data_analyst": {
+      "data_analyst": {"matched": ["SQL", "Python", "Excel", "Tableau", "Data Analysis", "Communication", "Pandas", "Agile"], "transferable": ["Power BI"]},
+      "software_engineer": {"matched": ["Python"], "transferable": ["PostgreSQL"]},
+      "cloud_engineer_trap": {"matched": ["Python"], "transferable": []}
+    },
+    "luis_ortega_software_dev": {
+      "data_analyst": {"matched": ["SQL", "Python"], "transferable": ["Data Analysis"]},
+      "software_engineer": {"matched": ["Python", "REST APIs", "Git", "Docker"], "transferable": ["React", "PostgreSQL", "Kubernetes"]},
+      "cloud_engineer_trap": {"matched": ["Docker", "Python"], "transferable": ["Kubernetes"]}
+    },
+    "priya_nair_new_grad": {
+      "data_analyst": {"matched": ["SQL", "Python", "Agile"], "transferable": []},
+      "software_engineer": {"matched": ["Python", "React", "REST APIs", "Git"], "transferable": ["PostgreSQL"]},
+      "cloud_engineer_trap": {"matched": ["Python"], "transferable": []}
+    },
+    "daniel_brooks_career_changer": {
+      "data_analyst": {"matched": ["SQL", "Excel", "Data Analysis", "Communication"], "transferable": ["Agile"]},
+      "software_engineer": {"matched": [], "transferable": ["PostgreSQL"]},
+      "cloud_engineer_trap": {"matched": [], "transferable": []}
+    },
+    "aisha_khan_devops": {
+      "data_analyst": {"matched": ["Python"], "transferable": []},
+      "software_engineer": {"matched": ["Python", "Git", "Docker", "AWS", "CI/CD"], "transferable": ["Kubernetes"]},
+      "cloud_engineer_trap": {"matched": ["AWS", "Docker", "Linux", "Python", "CI/CD"], "transferable": ["Kubernetes"]}
+    }
+  }
+}

@@ -1,0 +1,372 @@
+{
+ "retrieval": {
+  "threshold": 0.12,
+  "n_in_scope": 35,
+  "n_out_of_scope": 8,
+  "top1_topic_accuracy_pct": 82.9,
+  "in_scope_answered_pct": 94.3,
+  "out_of_scope_fallback_pct": 62.5,
+  "per_topic_accuracy": {
+   "Résumé Improvement": "3/5",
+   "Interview Preparation": "5/5",
+   "Job Search Planning": "3/5",
+   "Networking": "5/5",
+   "Skill Development": "4/5",
+   "Career Transitions": "5/5",
+   "ATS Formatting": "4/5"
+  },
+  "misses": [
+   {
+    "q": "How do I write good bullet points with action verbs?",
+    "expected": "Résumé Improvement",
+    "got": "ATS Formatting",
+    "score": 0.247
+   },
+   {
+    "q": "How long should my resume be?",
+    "expected": "Résumé Improvement",
+    "got": "Skill Development",
+    "score": 0.119
+   },
+   {
+    "q": "How should I plan my job search?",
+    "expected": "Job Search Planning",
+    "got": "Résumé Improvement",
+    "score": 0.129
+   },
+   {
+    "q": "Where can I find job openings?",
+    "expected": "Job Search Planning",
+    "got": "Résumé Improvement",
+    "score": 0.141
+   },
+   {
+    "q": "How do I build a project to show employers my skills?",
+    "expected": "Skill Development",
+    "got": "Career Transitions",
+    "score": 0.209
+   },
+   {
+    "q": "Will an applicant tracking system reject my resume?",
+    "expected": "ATS Formatting",
+    "got": "Job Search Planning",
+    "score": 0.378
+   }
+  ],
+  "out_of_scope_scores": [
+   [
+    "What is the best pizza restaurant in Dallas?",
+    0.0
+   ],
+   [
+    "Explain how photosynthesis works.",
+    0.187
+   ],
+   [
+    "Who won the world cup in 2018?",
+    0.0
+   ],
+   [
+    "Write me a poem about the ocean.",
+    0.148
+   ],
+   [
+    "How do I fix a flat bicycle tire?",
+    0.0
+   ],
+   [
+    "What's the capital of Australia?",
+    0.0
+   ],
+   [
+    "Give me a recipe for banana bread.",
+    0.0
+   ],
+   [
+    "How does quantum computing work?",
+    0.187
+   ]
+  ],
+  "ambiguous": [
+   {
+    "q": "Help me with my career.",
+    "got": "Job Search Planning",
+    "score": 0.134,
+    "fallback": false
+   },
+   {
+    "q": "What should I do next?",
+    "got": "Skill Development",
+    "score": 0.0,
+    "fallback": true
+   },
+   {
+    "q": "Tell me about interviews and resumes.",
+    "got": "Interview Preparation",
+    "score": 0.209,
+    "fallback": false
+   },
+   {
+    "q": "I feel stuck.",
+    "got": "Interview Preparation",
+    "score": 0.149,
+    "fallback": false
+   }
+  ],
+  "threshold_sweep": [
+   {
+    "threshold": 0.08,
+    "in_scope_answered_pct": 100.0,
+    "in_scope_correct_topic_pct": 82.9,
+    "out_of_scope_fallback_pct": 62.5
+   },
+   {
+    "threshold": 0.1,
+    "in_scope_answered_pct": 100.0,
+    "in_scope_correct_topic_pct": 82.9,
+    "out_of_scope_fallback_pct": 62.5
+   },
+   {
+    "threshold": 0.12,
+    "in_scope_answered_pct": 94.3,
+    "in_scope_correct_topic_pct": 80.0,
+    "out_of_scope_fallback_pct": 62.5
+   },
+   {
+    "threshold": 0.14,
+    "in_scope_answered_pct": 88.6,
+    "in_scope_correct_topic_pct": 77.1,
+    "out_of_scope_fallback_pct": 62.5
+   },
+   {
+    "threshold": 0.16,
+    "in_scope_answered_pct": 82.9,
+    "in_scope_correct_topic_pct": 74.3,
+    "out_of_scope_fallback_pct": 75.0
+   },
+   {
+    "threshold": 0.18,
+    "in_scope_answered_pct": 71.4,
+    "in_scope_correct_topic_pct": 62.9,
+    "out_of_scope_fallback_pct": 75.0
+   },
+   {
+    "threshold": 0.2,
+    "in_scope_answered_pct": 62.9,
+    "in_scope_correct_topic_pct": 54.3,
+    "out_of_scope_fallback_pct": 100.0
+   },
+   {
+    "threshold": 0.25,
+    "in_scope_answered_pct": 45.7,
+    "in_scope_correct_topic_pct": 42.9,
+    "out_of_scope_fallback_pct": 100.0
+   }
+  ]
+ },
+ "guard": {
+  "n_block": 14,
+  "refusal_rate_pct": 100.0,
+  "correct_category_pct": 100.0,
+  "n_allow": 12,
+  "false_refusal_rate_pct": 0.0,
+  "false_refusals": [],
+  "missed": []
+ },
+ "ats": {
+  "fixtures": 11,
+  "rule_precision_pct": 100.0,
+  "rule_recall_pct": 100.0,
+  "tp": 8,
+  "fp": 0,
+  "fn": 0,
+  "tn": 82,
+  "image_only_rejected_with_message": true,
+  "detail": [
+   {
+    "fixture": "clean.txt",
+    "expected_fail": [],
+    "got_fail": [],
+    "score": 100
+   },
+   {
+    "fixture": "clean.docx",
+    "expected_fail": [],
+    "got_fail": [],
+    "score": 100
+   },
+   {
+    "fixture": "clean.pdf",
+    "expected_fail": [],
+    "got_fail": [],
+    "score": 100
+   },
+   {
+    "fixture": "two_column.pdf",
+    "expected_fail": [
+     "Single-column reading order"
+    ],
+    "got_fail": [
+     "Single-column reading order"
+    ],
+    "score": 83
+   },
+   {
+    "fixture": "table_layout.docx",
+    "expected_fail": [
+     "No tables or text boxes holding core content"
+    ],
+    "got_fail": [
+     "No tables or text boxes holding core content"
+    ],
+    "score": 92
+   },
+   {
+    "fixture": "header_contact.docx",
+    "expected_fail": [
+     "Contact details appear in the body"
+    ],
+    "got_fail": [
+     "Contact details appear in the body"
+    ],
+    "score": 92
+   },
+   {
+    "fixture": "creative_headings.txt",
+    "expected_fail": [
+     "Standard section headings found"
+    ],
+    "got_fail": [
+     "Standard section headings found"
+    ],
+    "score": 83
+   },
+   {
+    "fixture": "mixed_dates.txt",
+    "expected_fail": [
+     "Consistent date format"
+    ],
+    "got_fail": [
+     "Consistent date format"
+    ],
+    "score": 96
+   },
+   {
+    "fixture": "no_bullets.txt",
+    "expected_fail": [
+     "Bullets begin with action verbs",
+     "Bullets include numbers or concrete results"
+    ],
+    "got_fail": [
+     "Bullets begin with action verbs",
+     "Bullets include numbers or concrete results"
+    ],
+    "score": 83
+   },
+   {
+    "fixture": "too_short.txt",
+    "expected_fail": [
+     "Reasonable length (one to two pages)"
+    ],
+    "got_fail": [
+     "Reasonable length (one to two pages)"
+    ],
+    "score": 96
+   }
+  ],
+  "caveat": "Fixtures are constructed to trigger one rule each, so this checks rule correctness, not real-world coverage."
+ },
+ "gaps": {
+  "pairs": 15,
+  "skill_labels": 130,
+  "agreement_pct": 98.5,
+  "confusion_label_vs_predicted": {
+   "matched": {
+    "matched": 41
+   },
+   "transferable": {
+    "transferable": 12
+   },
+   "missing": {
+    "missing": 75,
+    "transferable": 2
+   }
+  },
+  "transferable_claims": 14,
+  "transferable_with_valid_quote_pct": 100.0,
+  "jd_keyword_extraction": [
+   {
+    "jd": "data_analyst",
+    "found": 9,
+    "expected": 9,
+    "extra": [],
+    "required_split_correct": true
+   },
+   {
+    "jd": "software_engineer",
+    "found": 9,
+    "expected": 9,
+    "extra": [],
+    "required_split_correct": true
+   },
+   {
+    "jd": "cloud_engineer_trap",
+    "found": 8,
+    "expected": 8,
+    "extra": [],
+    "required_split_correct": true
+   }
+  ],
+  "disagreements": [
+   {
+    "resume": "priya_nair_new_grad",
+    "jd": "data_analyst",
+    "skill": "Data Analysis",
+    "label": "missing",
+    "predicted": "transferable"
+   },
+   {
+    "resume": "aisha_khan_devops",
+    "jd": "cloud_engineer_trap",
+    "skill": "Terraform",
+    "label": "missing",
+    "predicted": "transferable"
+   }
+  ]
+ },
+ "grounding": {
+  "n_clean": 20,
+  "n_fabricated": 20,
+  "fabrication_detection_pct": 85.0,
+  "false_flag_rate_pct": 0.0,
+  "detection_by_type": {
+   "new_skill": "6/6",
+   "number_change": "4/4",
+   "new_number": "3/3",
+   "invented_entity": "4/4",
+   "semantic_inflation": "0/3"
+  },
+  "missed_fabrications": [
+   {
+    "type": "semantic_inflation",
+    "proposed": "Led Agile sprints with 5 engineers to ship a reporting tool"
+   },
+   {
+    "type": "semantic_inflation",
+    "proposed": "Presented data analysis findings to regional managers, transforming communication between stores and head office"
+   },
+   {
+    "type": "semantic_inflation",
+    "proposed": "Directed the buyers' team using Excel forecasting models"
+   }
+  ],
+  "false_flags": []
+ },
+ "operations": {
+  "index_build_ms": 1.7,
+  "retrieval_query_ms": 0.24,
+  "ats_check_ms": 0.16,
+  "gap_analysis_ms": 0.54,
+  "pdf_ingestion_ms": 9.86
+ }
+}

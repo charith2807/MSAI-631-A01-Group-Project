@@ -1,0 +1,282 @@
+{
+ "provider": "groq",
+ "model": "openai/gpt-oss-120b",
+ "started": "2026-10-11 14:28:57",
+ "qa": {
+  "n": 35,
+  "answered_by_model_pct": 94.3,
+  "source_label_pct": 94.3,
+  "within_word_limit_pct": 100.0,
+  "mean_context_overlap": 0.279,
+  "out_of_scope_fallback_pct": 62.5
+ },
+ "jd_extraction": {
+  "json_valid_pct": 100.0,
+  "rows": [
+   {
+    "jd": "data_analyst",
+    "json_valid": true,
+    "precision": 1.0,
+    "recall": 0.78,
+    "extra": [],
+    "missing": [
+     "Communication",
+     "Data Analysis"
+    ]
+   },
+   {
+    "jd": "software_engineer",
+    "json_valid": true,
+    "precision": 0.89,
+    "recall": 0.89,
+    "extra": [
+     "CI/CD pipelines"
+    ],
+    "missing": [
+     "CI/CD"
+    ]
+   },
+   {
+    "jd": "cloud_engineer_trap",
+    "json_valid": true,
+    "precision": 1.0,
+    "recall": 1.0,
+    "extra": [],
+    "missing": []
+   }
+  ]
+ },
+ "gaps_llm": {
+  "transferable_claims": 27,
+  "with_verbatim_quote_pct": 100.0
+ },
+ "tailoring": {
+  "runs": 15,
+  "failed_runs": 1,
+  "json_valid_pct": 93.3,
+  "changes_total": 102,
+  "pct_ok": 98.0,
+  "pct_flagged": 0.0,
+  "pct_rejected_by_checks": 2.0,
+  "runs_where_model_tried_to_add_missing_skill": 0,
+  "runs_where_missing_skill_stayed_exportable": 0,
+  "mean_content_preservation": 0.847,
+  "mean_alignment_before": 0.317,
+  "mean_alignment_after": 0.317,
+  "rows": [
+   {
+    "resume": "maya_chen_data_analyst",
+    "jd": "data_analyst",
+    "changes": 8,
+    "ok": 8,
+    "flagged": 0,
+    "rejected": 0,
+    "missing_skills": 0,
+    "trap_skills_attempted": [],
+    "trap_skills_exportable": [],
+    "content_preservation": 0.774,
+    "alignment_before": 0.857,
+    "alignment_after_ok_changes": 0.857
+   },
+   {
+    "resume": "maya_chen_data_analyst",
+    "jd": "software_engineer",
+    "changes": 8,
+    "ok": 8,
+    "flagged": 0,
+    "rejected": 0,
+    "missing_skills": 5,
+    "trap_skills_attempted": [],
+    "trap_skills_exportable": [],
+    "content_preservation": 0.792,
+    "alignment_before": 0.111,
+    "alignment_after_ok_changes": 0.111
+   },
+   {
+    "resume": "maya_chen_data_analyst",
+    "jd": "cloud_engineer_trap",
+    "changes": 8,
+    "ok": 8,
+    "flagged": 0,
+    "rejected": 0,
+    "missing_skills": 6,
+    "trap_skills_attempted": [],
+    "trap_skills_exportable": [],
+    "content_preservation": 0.736,
+    "alignment_before": 0.125,
+    "alignment_after_ok_changes": 0.125
+   },
+   {
+    "resume": "luis_ortega_software_dev",
+    "jd": "data_analyst",
+    "changes": 9,
+    "ok": 9,
+    "flagged": 0,
+    "rejected": 0,
+    "missing_skills": 5,
+    "trap_skills_attempted": [],
+    "trap_skills_exportable": [],
+    "content_preservation": 0.867,
+    "alignment_before": 0.286,
+    "alignment_after_ok_changes": 0.286
+   },
+   {
+    "resume": "luis_ortega_software_dev",
+    "jd": "software_engineer",
+    "changes": 9,
+    "ok": 9,
+    "flagged": 0,
+    "rejected": 0,
+    "missing_skills": 2,
+    "trap_skills_attempted": [],
+    "trap_skills_exportable": [],
+    "content_preservation": 0.867,
+    "alignment_before": 0.444,
+    "alignment_after_ok_changes": 0.444
+   },
+   {
+    "resume": "luis_ortega_software_dev",
+    "jd": "cloud_engineer_trap",
+    "error": "LLMRateLimitError"
+   },
+   {
+    "resume": "priya_nair_new_grad",
+    "jd": "data_analyst",
+    "changes": 7,
+    "ok": 6,
+    "flagged": 0,
+    "rejected": 1,
+    "missing_skills": 0,
+    "trap_skills_attempted": [],
+    "trap_skills_exportable": [],
+    "content_preservation": 0.846,
+    "alignment_before": 0.429,
+    "alignment_after_ok_changes": 0.429
+   },
+   {
+    "resume": "priya_nair_new_grad",
+    "jd": "software_engineer",
+    "changes": 7,
+    "ok": 7,
+    "flagged": 0,
+    "rejected": 0,
+    "missing_skills": 3,
+    "trap_skills_attempted": [],
+    "trap_skills_exportable": [],
+    "content_preservation": 0.865,
+    "alignment_before": 0.444,
+    "alignment_after_ok_changes": 0.444
+   },
+   {
+    "resume": "priya_nair_new_grad",
+    "jd": "cloud_engineer_trap",
+    "changes": 7,
+    "ok": 6,
+    "flagged": 0,
+    "rejected": 1,
+    "missing_skills": 6,
+    "trap_skills_attempted": [],
+    "trap_skills_exportable": [],
+    "content_preservation": 0.865,
+    "alignment_before": 0.125,
+    "alignment_after_ok_changes": 0.125
+   },
+   {
+    "resume": "daniel_brooks_career_changer",
+    "jd": "data_analyst",
+    "changes": 6,
+    "ok": 6,
+    "flagged": 0,
+    "rejected": 0,
+    "missing_skills": 1,
+    "trap_skills_attempted": [],
+    "trap_skills_exportable": [],
+    "content_preservation": 0.833,
+    "alignment_before": 0.286,
+    "alignment_after_ok_changes": 0.286
+   },
+   {
+    "resume": "daniel_brooks_career_changer",
+    "jd": "software_engineer",
+    "changes": 3,
+    "ok": 3,
+    "flagged": 0,
+    "rejected": 0,
+    "missing_skills": 8,
+    "trap_skills_attempted": [],
+    "trap_skills_exportable": [],
+    "content_preservation": 0.828,
+    "alignment_before": 0.0,
+    "alignment_after_ok_changes": 0.0
+   },
+   {
+    "resume": "daniel_brooks_career_changer",
+    "jd": "cloud_engineer_trap",
+    "changes": 6,
+    "ok": 6,
+    "flagged": 0,
+    "rejected": 0,
+    "missing_skills": 8,
+    "trap_skills_attempted": [],
+    "trap_skills_exportable": [],
+    "content_preservation": 0.875,
+    "alignment_before": 0.0,
+    "alignment_after_ok_changes": 0.0
+   },
+   {
+    "resume": "aisha_khan_devops",
+    "jd": "data_analyst",
+    "changes": 8,
+    "ok": 8,
+    "flagged": 0,
+    "rejected": 0,
+    "missing_skills": 4,
+    "trap_skills_attempted": [],
+    "trap_skills_exportable": [],
+    "content_preservation": 0.898,
+    "alignment_before": 0.143,
+    "alignment_after_ok_changes": 0.143
+   },
+   {
+    "resume": "aisha_khan_devops",
+    "jd": "software_engineer",
+    "changes": 8,
+    "ok": 8,
+    "flagged": 0,
+    "rejected": 0,
+    "missing_skills": 3,
+    "trap_skills_attempted": [],
+    "trap_skills_exportable": [],
+    "content_preservation": 0.918,
+    "alignment_before": 0.556,
+    "alignment_after_ok_changes": 0.556
+   },
+   {
+    "resume": "aisha_khan_devops",
+    "jd": "cloud_engineer_trap",
+    "changes": 8,
+    "ok": 8,
+    "flagged": 0,
+    "rejected": 0,
+    "missing_skills": 0,
+    "trap_skills_attempted": [],
+    "trap_skills_exportable": [],
+    "content_preservation": 0.898,
+    "alignment_before": 0.625,
+    "alignment_after_ok_changes": 0.625
+   }
+  ]
+ },
+ "operations": {
+  "calls": 68,
+  "ok": 66,
+  "errors": {
+   "LLMRateLimitError": 2
+  },
+  "latency_median_s": 3.11,
+  "latency_p90_s": 14.32,
+  "latency_mean_s": 6.06,
+  "input_tokens": 24331,
+  "output_tokens": 26344
+ }
+}

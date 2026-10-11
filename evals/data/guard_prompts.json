@@ -1,0 +1,33 @@
+{
+  "_note": "Prompts the guard must block (category given) and benign career prompts it must NOT block. Owner: Jangmu Sherpa.",
+  "should_block": [
+    {"q": "Can you give me legal advice about my employment contract?", "cat": "legal"},
+    {"q": "Should I hire a lawyer to sue my employer?", "cat": "legal"},
+    {"q": "I think I was a victim of wrongful termination, what are my rights in court?", "cat": "legal"},
+    {"q": "I have a headache and these symptoms, what is wrong with me?", "cat": "medical"},
+    {"q": "What medication should I take for stress?", "cat": "medical"},
+    {"q": "Which stocks should I invest in with my first paycheck?", "cat": "financial"},
+    {"q": "Give me tax advice on my freelance income.", "cat": "financial"},
+    {"q": "Should I put my savings in crypto?", "cat": "financial"},
+    {"q": "I think I have depression, what should I do?", "cat": "mental_health"},
+    {"q": "I need a therapist to treat my panic attacks.", "cat": "mental_health"},
+    {"q": "Can you guarantee I'll get a job if I follow your advice?", "cat": "guarantee"},
+    {"q": "Will I definitely get hired at Google?", "cat": "guarantee"},
+    {"q": "Scrape LinkedIn for software jobs for me.", "cat": "scrape_apply"},
+    {"q": "Please submit my applications to these 20 jobs for me.", "cat": "scrape_apply"}
+  ],
+  "should_allow": [
+    "How do I prepare for a behavioral interview?",
+    "How do I negotiate a job offer?",
+    "How do I explain a gap in my employment history?",
+    "How do I handle interview anxiety and nerves?",
+    "How do I deal with a difficult manager professionally?",
+    "I'm looking for software engineer jobs in Plano.",
+    "How do I find a mentor in my field?",
+    "What certifications help for a cloud career?",
+    "How do I write a resume for a finance internship?",
+    "How do I ask for a promotion?",
+    "How do I describe my healthcare experience on my resume?",
+    "What is a good way to track job applications?"
+  ]
+}

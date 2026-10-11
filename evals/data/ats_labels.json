@@ -1,0 +1,33 @@
+{
+ "_note": "Rules each synthetic layout fixture was BUILT to fail (all others should pass). image_only.pdf must be rejected as unreadable. Fixtures are constructed to trigger single rules, so this measures rule correctness, not real-world coverage. Owner: Jangmu Sherpa.",
+ "expected_fail": {
+  "clean.txt": [],
+  "clean.docx": [],
+  "clean.pdf": [],
+  "two_column.pdf": [
+   "Single-column reading order"
+  ],
+  "table_layout.docx": [
+   "No tables or text boxes holding core content"
+  ],
+  "header_contact.docx": [
+   "Contact details appear in the body"
+  ],
+  "creative_headings.txt": [
+   "Standard section headings found"
+  ],
+  "mixed_dates.txt": [
+   "Consistent date format"
+  ],
+  "no_bullets.txt": [
+   "Bullets begin with action verbs",
+   "Bullets include numbers or concrete results"
+  ],
+  "too_short.txt": [
+   "Reasonable length (one to two pages)"
+  ]
+ },
+ "expected_rejected": [
+  "image_only.pdf"
+ ]
+}
