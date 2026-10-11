@@ -1,0 +1,29 @@
+# secrets
+.env
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# macOS
+.DS_Store
+# user data - never commit real resumes or generated output
+uploads/
+*.generated.docx
+tailored_resume*.docx
+# gradio
+.gradio/
+flagged/
+# build / submission output
+dist/
+*.zip
+# tooling
+.idea/
+.vscode/
+*.log
+.coverage
+htmlcov/
+*.egg-info/
+.claude/
+graphify-out/
+~$*
