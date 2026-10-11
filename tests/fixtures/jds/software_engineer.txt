@@ -1,0 +1,23 @@
+Software Engineer
+Example Software Inc.
+
+About the role
+Join our platform team to build web services used by thousands of customers.
+
+Responsibilities:
+- Design and build REST APIs and web interfaces
+- Write tests and review code
+- Work with product managers on new features
+
+Requirements:
+- Python
+- React
+- REST APIs
+- PostgreSQL
+- Git
+- Docker
+
+Preferred qualifications:
+- AWS
+- Kubernetes
+- CI/CD pipelines

@@ -1,0 +1,12 @@
+Maya Chen
+maya.chen@example.com | (214) 555-0101 | linkedin.com/in/maya-chen-example
+
+EXPERIENCE
+Data Analyst, Northfield Retail, Jan 2023 - Present
+- Built SQL dashboards in Tableau that cut reporting time by 40%
+
+EDUCATION
+B.S. Statistics, Example State University, 2021
+
+SKILLS
+SQL, Python, Pandas, Excel, Tableau, Agile

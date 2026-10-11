@@ -1,0 +1,24 @@
+Luis Ortega
+luis.ortega@example.com | (469) 555-0102 | github.com/luis-ortega-example
+
+SUMMARY
+Software developer with four years of experience building web services and internal tools.
+
+EXPERIENCE
+Software Developer, Lakeside Systems, Mar 2022 - Present
+- Built REST APIs with Flask and Python that serve 20,000 requests per day
+- Wrote SQL queries against MySQL to analyze customer usage and report trends to product managers
+- Developed Node.js services and JavaScript front-end pages for an internal portal
+- Containerized 6 services with Docker and documented the deployment steps
+- Wrote pytest unit tests that raised coverage from 55% to 82%
+- Managed code reviews and branches with Git
+
+Junior Developer, Pinecrest Software, Jul 2020 - Feb 2022
+- Fixed 40 bugs in a customer-facing web application
+- Automated data exports with Python scripts
+
+EDUCATION
+B.S. Computer Science, Example Tech University, 2020
+
+SKILLS
+Python, JavaScript, Node.js, Flask, MySQL, Git, Docker, REST APIs

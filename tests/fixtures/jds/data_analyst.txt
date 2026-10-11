@@ -1,0 +1,21 @@
+Data Analyst
+Example Analytics Co.
+
+About the role
+We are hiring a Data Analyst to turn business data into clear recommendations.
+
+Responsibilities:
+- Build dashboards and reports for business stakeholders
+- Clean and analyze data from several sources
+- Present findings to non-technical teams
+
+Requirements:
+- Strong SQL and Python skills
+- Advanced Excel
+- Experience with Tableau
+- Data analysis and strong communication skills
+
+Nice to have:
+- Pandas
+- Power BI
+- Experience working in Agile teams

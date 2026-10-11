@@ -1,0 +1,22 @@
+Cloud Engineer
+Example Cloud Ltd.
+
+About the role
+Operate and automate our cloud platform. (Trap posting: lists skills most fixtures do not have.)
+
+Responsibilities:
+- Provision infrastructure as code
+- Operate containerized workloads
+- Improve deployment pipelines
+
+Requirements:
+- AWS
+- Kubernetes
+- Terraform
+- Docker
+- Linux
+- Python
+
+Nice to have:
+- Go
+- CI/CD

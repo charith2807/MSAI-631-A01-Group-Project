@@ -1,0 +1,22 @@
+Maya Chen
+maya.chen@example.com | (214) 555-0101 | linkedin.com/in/maya-chen-example
+
+SUMMARY
+Data analyst with three years of experience turning retail sales data into clear reports for store managers.
+
+EXPERIENCE
+Data Analyst, Northfield Retail, Jan 2023 - Present
+- Built SQL dashboards in Tableau that cut weekly reporting time by 40%
+- Cleaned and merged sales data from 12 stores using Python and Pandas
+- Presented data analysis findings to regional managers and improved communication with head office
+- Maintained Excel forecasting models used by a team of 8 buyers
+Junior Analyst, Brightside Foods, 06/2021 - December 2022
+- Reduced report errors by 25% by validating inputs with SQL checks
+- Created weekly sales summaries for 30 product lines
+- Documented 14 recurring reports and trained 3 new analysts
+
+EDUCATION
+B.S. Statistics, Example State University, 2021
+
+SKILLS
+SQL, Python, Pandas, Excel, Tableau, Agile

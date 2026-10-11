@@ -1,0 +1,23 @@
+Priya Nair
+priya.nair@example.com | (972) 555-0103 | github.com/priya-nair-example
+
+SUMMARY
+Recent computer science graduate with project experience in web development and databases.
+
+EXPERIENCE
+Software Intern, Harbor Analytics, May 2025 - Aug 2025
+- Built a React dashboard that displayed metrics from a REST API for 3 internal teams
+- Wrote Java and Python scripts to load sample data into a SQL database
+- Fixed 15 UI bugs and wrote JUnit tests for the new components
+- Collaborated in a scrum team and used Git pull requests for every change
+
+PROJECTS
+Course Scheduler, Example Tech University, Jan 2025 - May 2025
+- Developed a web app in React with a Java backend that lets 200 students plan a semester
+- Designed a relational schema in SQL for courses, sections and enrollments
+
+EDUCATION
+B.S. Computer Science, Example Tech University, 2025
+
+SKILLS
+Java, Python, SQL, React, Git, HTML/CSS, Unit Testing

@@ -1,0 +1,20 @@
+Daniel Brooks
+daniel.brooks@example.com | (817) 555-0104 | linkedin.com/in/daniel-brooks-example
+
+SUMMARY
+High school math teacher moving into data work, with strong communication and leadership experience.
+
+EXPERIENCE
+Mathematics Teacher, Example ISD, Aug 2016 - Present
+- Analyzed assessment data in Excel to identify struggling students, raising pass rates by 12%
+- Led a department of 6 teachers and coordinated a curriculum redesign
+- Presented data analysis summaries to parents and school administrators each semester
+- Planned and delivered a 3-year project to introduce graphing tools across 4 classrooms
+- Completed an online SQL course and practiced joins and aggregates on a public dataset
+
+EDUCATION
+M.Ed. Curriculum and Instruction, Example State University, 2018
+B.A. Mathematics, Example State University, 2015
+
+SKILLS
+Excel, Google Sheets, Communication, Leadership, Project Management, SQL (learning)

@@ -1,0 +1,23 @@
+Aisha Khan
+aisha.khan@example.com | (682) 555-0105 | linkedin.com/in/aisha-khan-example
+
+SUMMARY
+Systems engineer with five years of experience automating infrastructure and deployments.
+
+EXPERIENCE
+Systems Engineer, Redwood Cloud Services, Feb 2021 - Present
+- Automated server setup with Bash and Python scripts, saving 10 hours per week
+- Deployed and monitored 15 applications on AWS and managed Linux servers
+- Built Jenkins CI/CD pipelines that cut release time from 2 hours to 20 minutes
+- Containerized legacy services with Docker for 4 product teams
+- Maintained infrastructure code and reviews in Git
+
+Systems Administrator, Willow IT, Jun 2019 - Jan 2021
+- Supported 120 employees with Linux and Windows administration
+- Reduced ticket backlog by 35% with documented runbooks
+
+EDUCATION
+B.S. Information Technology, Example State University, 2019
+
+SKILLS
+Linux, Bash, Python, AWS, Docker, Jenkins, Git
